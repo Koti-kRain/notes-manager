@@ -14,18 +14,17 @@
 
 ## Установка
 
-### Требования
+## Требования
 
 - Python 3.10+
 - Flet
 - Supabase (для облачного режима)
 
-### Установка зависимостей
+## Установка зависимостей
 
-```bash
 pip install flet supabase
 
-### Настройка облачной синхронизации (Supabase)
+## Настройка облачной синхронизации (Supabase)
 1.Зарегистрируйтесь на supabase.com
 2.Создайте новый проект
 3.В SQL Editor выполните скрипт:
@@ -52,12 +51,12 @@ publishable key
 SUPABASE_URL = "https://xxxxx.supabase.co"
 SUPABASE_KEY = "ваш-ключ"
 
-###Запуск
+##Запуск
 
 python notes_manager.py
 
 
-###Запуск на Android
+##Запуск на Android
 
 1.Установите приложение Flet из Google Play
 2.Убедитесь, что телефон и компьютер в одной Wi-Fi сети
