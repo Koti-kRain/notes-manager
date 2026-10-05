@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+notes.db
+notes_data/
+config.py
